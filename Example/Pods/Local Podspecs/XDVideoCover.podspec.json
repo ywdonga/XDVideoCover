@@ -1,0 +1,32 @@
+{
+  "name": "XDVideoCover",
+  "version": "0.1.0",
+  "summary": "A short description of XDVideoCover.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/329720990@qq.com/XDVideoCover",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "329720990@qq.com": "dongyouweie@126.com"
+  },
+  "source": {
+    "git": "https://github.com/329720990@qq.com/XDVideoCover.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.5",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "XDVideoCover/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.6"
+    ],
+    "XDPlayer": [
+      "~> 0.1.4"
+    ]
+  },
+  "swift_version": "5.5"
+}

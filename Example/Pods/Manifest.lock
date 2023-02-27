@@ -1,0 +1,41 @@
+PODS:
+  - LookinServer (1.1.5):
+    - LookinServer/Core (= 1.1.5)
+  - LookinServer/Core (1.1.5)
+  - SnapKit (5.6.0)
+  - XDPlayer (0.1.4)
+  - XDVideoCover (0.1.0):
+    - SnapKit (~> 5.6)
+    - XDPlayer (~> 0.1.4)
+  - ZLPhotoBrowser (4.3.9):
+    - ZLPhotoBrowser/Core (= 4.3.9)
+  - ZLPhotoBrowser/Core (4.3.9)
+
+DEPENDENCIES:
+  - LookinServer
+  - XDVideoCover (from `../`)
+  - ZLPhotoBrowser (~> 4.3.9)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ZLPhotoBrowser
+  https://github.com/ywdonga/XDKitSpecs.git:
+    - XDPlayer
+  trunk:
+    - LookinServer
+    - SnapKit
+
+EXTERNAL SOURCES:
+  XDVideoCover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LookinServer: 2893f2bae53cbf3fd49bbe1a8ea1745582ef1317
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  XDPlayer: 7f3480d80517e893843510eb6b83986d0b967280
+  XDVideoCover: a2dfb5e19bb26aee48a0e8963beb66c3e2953b44
+  ZLPhotoBrowser: 02b3569b8f702d2e153e8fdb1f6b32fef3a2867c
+
+PODFILE CHECKSUM: d4e013ce739a507d6b218f5bd7860b236d61bca1
+
+COCOAPODS: 1.11.3

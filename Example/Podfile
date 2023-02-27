@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/ywdonga/XDKitSpecs.git'
+
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'XDVideoCover_Example' do
+  pod 'XDVideoCover', :path => '../'
+  # QMUI查看与修改 iOS App 里的 UI 对象
+  pod 'LookinServer', :configurations => ['Debug']
+  # 图片选择器
+  pod 'ZLPhotoBrowser', '~> 4.3.9'
+
+  target 'XDVideoCover_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

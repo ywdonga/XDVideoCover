@@ -1,0 +1,6 @@
+framework module XDVideoCover {
+  umbrella header "XDVideoCover-umbrella.h"
+
+  export *
+  module * { export * }
+}

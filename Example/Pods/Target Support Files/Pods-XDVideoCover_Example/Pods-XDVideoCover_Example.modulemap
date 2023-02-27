@@ -1,0 +1,6 @@
+framework module Pods_XDVideoCover_Example {
+  umbrella header "Pods-XDVideoCover_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
