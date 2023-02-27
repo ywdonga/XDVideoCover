@@ -1,9 +1,9 @@
 {
   "name": "XDVideoCover",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of XDVideoCover.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/329720990@qq.com/XDVideoCover",
+  "homepage": "https://github.com/ywdonga/XDVideoCover",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "329720990@qq.com": "dongyouweie@126.com"
   },
   "source": {
-    "git": "https://github.com/329720990@qq.com/XDVideoCover.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ywdonga/XDVideoCover.git",
+    "tag": "0.1.1"
   },
   "swift_versions": "5.5",
   "platforms": {
