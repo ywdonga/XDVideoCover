@@ -214,12 +214,12 @@ extension XDVideoCoverVC {
     }
     
     @objc func doneBtnClick() {
-        player.takeSnapshot { [weak self] image, error in
+        XDCoverTool.requestImage(from: player.asset, time: CMTime(seconds: player.currentTimeInterval, preferredTimescale: timescale())) { [weak self] image, time in
             if let img = image {
                 self?.snapshotBlock?(img)
                 self?.navigationController?.popViewController(animated: true)
             } else {
-                print(error?.localizedDescription ?? "保存错误")
+                print("保存错误")
             }
         }
     }
@@ -285,13 +285,5 @@ extension XDVideoCoverVC {
 
     func safeInsets() -> UIEdgeInsets {
         UIApplication.shared.keyWindow?.safeAreaInsets ?? .zero
-    }
-    
-    internal func executeClosureOnMainQueue(withClosure closure: @escaping () -> Void) {
-        if Thread.isMainThread {
-            closure()
-        } else {
-            DispatchQueue.main.async(execute: closure)
-        }
     }
 }
