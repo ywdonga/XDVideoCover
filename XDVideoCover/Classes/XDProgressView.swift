@@ -10,12 +10,16 @@ import UIKit
 class XDProgressView: UIView {
     private lazy var bgView: UIView = {
         let v = UIView()
-        v.backgroundColor = .white.withAlphaComponent(0.5)
+        v.backgroundColor = .clear
+        v.layer.borderColor = UIColor.white.cgColor
+        v.layer.borderWidth = 2
+        v.layer.cornerRadius = 4
         return v
     }()
     
     private lazy var timeLabel: UILabel = {
        let lb = UILabel()
+        lb.textColor = .white
         lb.font = .systemFont(ofSize: 14)
         lb.text = "00:00"
         return lb
@@ -23,7 +27,7 @@ class XDProgressView: UIView {
     
     private lazy var linView: UIView = {
         let v = UIView()
-        v.backgroundColor = .blue
+        v.backgroundColor = .clear
         return v
     }()
     
@@ -41,14 +45,14 @@ class XDProgressView: UIView {
         bgView.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.height.equalToSuperview()
-            make.width.equalTo(30)
+            make.width.equalTo(56)
             make.top.bottom.equalTo(0)
         }
         
         bgView.addSubview(timeLabel)
         timeLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.bottom.equalTo(bgView.snp.top)
+            make.top.equalTo(bgView.snp.bottom)
             make.height.equalTo(30)
         }
         

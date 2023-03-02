@@ -24,7 +24,6 @@
 		0833E66E7F19849322305D67777B77DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADA5729C392B59FC08C58E8B1C4D93D /* Foundation.framework */; };
 		0945E9D72441D8D99DA05D3ACD1F74B2 /* Lookin_PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A6D21FC441C950C1684F6672A21631 /* Lookin_PTUSBHub.m */; };
 		0B994CDC79B1AD3A7BE62490D27C60C8 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF1D529A989B054BE0556DF88A795C /* ConstraintAttributes.swift */; };
-		0C8B390FB76609EE5BEC71E093BFF332 /* XDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE463E0B7E723A9FF336CBC6CDA764A /* XDProgressView.swift */; };
 		0DEB03C5038E8329AD34901133575CBA /* ZLProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0211BC183BDBFC421069A72AB1F1A3 /* ZLProgressHUD.swift */; };
 		0E02777C3C5D91D2EBCC5CBB27AE4C98 /* UITextView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 073385E9E961FF1AD6E67B44AF058023 /* UITextView+LookinServer.m */; };
 		0EE1D59477FA833C7B78EF2573A5EA08 /* LookinDisplayItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E02ABF6F9FCCBF127E55EB2E45DE8E /* LookinDisplayItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +35,7 @@
 		170CA3E7D3D583A2903BE83B0C5B50E5 /* LookinHierarchyInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEA0F34BBD95895B4A3C3666952E757 /* LookinHierarchyInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		181F503DF85BA0B6DF9E18DFEDC88178 /* LKSConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D20BE8B8449E98F729F08D44A7C285B /* LKSConfigManager.m */; };
 		183D8B3E057B885EA7DF9A8CDCCE9029 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5669F5DC6E0FE4380D4F2FAE9D7CE6C3 /* ConstraintMakerRelatable.swift */; };
+		187B033C316A0A0303440B8642DA3C9B /* XDVideoCover-XDVideoCover in Resources */ = {isa = PBXBuildFile; fileRef = C548B8DB71CD042953C878DE72468638 /* XDVideoCover-XDVideoCover */; };
 		18C5BDA6A212F2F4879A3A199E0B32C9 /* UIViewController+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D85C7A2E7B8FC52151971E832DF1D00F /* UIViewController+LookinServer.m */; };
 		1A34D1005A086A0B4557BE3935E59FCF /* LookinServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC23527D6342AF9ED498379CB2CE33DE /* LookinServer-dummy.m */; };
 		1A7AD8A68A05E37F410D5EA212A807A5 /* NSString+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = 859375B300F38C5F0ADCA77E9A7716BD /* NSString+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,7 +85,6 @@
 		3900F84FD444EAC31DCA2B783F9752DF /* ZLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44C763204C636A4C574A56879A9F7FC9 /* ZLPhotoBrowser.bundle */; };
 		39A7638C210A3BE09AD39B2119D6AC8F /* UIView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C678F78CD5A993E300E92A5D6A250B9C /* UIView+LookinServer.m */; };
 		3A62CE6E796124EAFA0EA70C8551AAB3 /* NSSet+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 050DA8C465774728FDEC1C9B3DB4E4B0 /* NSSet+Lookin.m */; };
-		3AA212A90C7205CE9B0A51D8FEDBE440 /* XDVideoCoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB700BBA2EECA9EE6908E3DD8CEB1D /* XDVideoCoverVC.swift */; };
 		3B42D612C75717488688A7688B62711E /* LKS_RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A3AE9EAF1319339A4E8AEFA5132EA /* LKS_RequestHandler.m */; };
 		3B5B03D4AA2878E3B8ABEFF3E10ADE22 /* ZLPhotoUIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150223D14F5D2E5B588E93FD4E379703 /* ZLPhotoUIConfiguration.swift */; };
 		3BE6CBC51DA0D83B592CE5DE79B2BF31 /* LookinHierarchyFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 966ED19C0E375B26587E65414FE9B372 /* LookinHierarchyFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -110,6 +109,7 @@
 		5380454C48A12A6E376122ABD8096968 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16094FC4216EA483259AB1F5E9B79A2A /* ConstraintDescription.swift */; };
 		53AE33A11295B3BF03A49F2A8C774FAA /* LookinConnectionResponseAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C7487EE130F5A20397827038AE7CC6 /* LookinConnectionResponseAttachment.m */; };
 		53E01379F4C9348D38C0DA5559E8F260 /* LKS_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3D64CF92E015FD697222E64B1A7AD9 /* LKS_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54635E66F4C714E6BF0C4133E1514A24 /* XDVideoCoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDEB60E7F0CC9AA3E3537711A476E0F /* XDVideoCoverVC.swift */; };
 		54804B2D8A49249609DF2AC21331DE77 /* UILabel+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9783DDAC0D8CEC7232A7132FB8D4F0 /* UILabel+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54C1FCF08E0EA15ABA2167D9685673DE /* LKS_ObjectRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D7C0AFBD6F5F8BCB401AA58A73D6 /* LKS_ObjectRegistry.m */; };
 		55A7AAD71303BA65A7CBE38C9D0BCDB9 /* LookinDisplayItemDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 130D75D672C5F99A34D6571BEA0DC48F /* LookinDisplayItemDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -131,17 +131,18 @@
 		604D3C93C17978C23600EC415949AB64 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDD4F637706D0426ADF5364D2C339B /* ConstraintInsets.swift */; };
 		605E74B0B11D9266D73A1560E730D357 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1342031D9ED4C5F2B2F2AB1B21EAF912 /* PhotosUI.framework */; };
 		611CEF7FF1EF9EA1BCEF6C73EEE3ACCF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3E568EF92D66CF854D349B3EEC038 /* ConstraintLayoutGuide.swift */; };
-		6152F3E229F5519F7D50539E5D68576F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADA5729C392B59FC08C58E8B1C4D93D /* Foundation.framework */; };
 		61B911BED2976065E88D1C0C0953CB2A /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0BB8E453168471E3C05C86D92FA06C /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62170C5051812C2EE791FD4E2519D9EA /* ZLImageNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB3D5F890F07E732B0CB2F8CD92A2E /* ZLImageNavController.swift */; };
 		62689445D046BBC168B2D87FDA42C9A0 /* LookinConnectionAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 847D0BF6AACE77B88FD19059B0E9541C /* LookinConnectionAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D58E325A43531D5A4A003A8DD7A5E7 /* LKS_AttrModificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D71E1D4494FEAEA9F5CD22532B9A2CAB /* LKS_AttrModificationHandler.m */; };
 		649081706D676185598B371D638B9A4E /* NSObject+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8ACC2902327CA136647B022CADB8C4 /* NSObject+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		659678767C7916D1A8F2A7D88D975DF8 /* LKSConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 095666D10B17321331BC271FFFB36996 /* LKSConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661DBD746B193E37A4C07B9EEE1C7671 /* XDVideoCover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BE2199F91792F59375D55E74322C8D /* XDVideoCover-dummy.m */; };
 		66E57D9119252F04614E20E94C238DB3 /* LookinTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8098BA9C71986E71CAADAC25B2FBADE0 /* LookinTuple.m */; };
 		67D4D4FB48EBC0F6A6712FA5F05EB33A /* UIView+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603776DDDD1CF0C3160B31494E843A08 /* UIView+ZLPhotoBrowser.swift */; };
 		67E94D68CE84F7402842A59B96978C79 /* Color+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = A393838EF067B77E1EDF3907C8B151EC /* Color+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DE75BA185BBAB5FDAA28321F3C849F /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585C84493F51BCE6D5EBBD81006FE56 /* ConstraintItem.swift */; };
+		69F84E990D03FD9521035D6EE3676C1A /* XDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4861ADD30E21782E53169B27FC5FAD /* XDProgressView.swift */; };
 		6AA75362D74304EBA0C0F8C030C8754B /* LKS_LocalInspectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12694877071E36A9487DF5C2A32C2CE4 /* LKS_LocalInspectViewController.m */; };
 		6AC1B881BB319C89AD023A02CDC8FC3D /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E4CDD61B1B68226D8BE099300C193 /* ConstraintLayoutGuide+Extensions.swift */; };
 		6BD7ED63A4F0854E60F567F7F04B821F /* LookinAttrIdentifiers.h in Headers */ = {isa = PBXBuildFile; fileRef = D64EFBFB3884EDBF9A8761EF0834AEFA /* LookinAttrIdentifiers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -158,6 +159,7 @@
 		7625142DDC10463DED9AB620B2834A98 /* NSArray+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBEA5B6B7D82E8280806A62EFCA0071 /* NSArray+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		784977CE1BE9CB898CD5FD787A791A1E /* LKS_PerspectiveLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4B8605F5CD9743A28E40453404CF6E /* LKS_PerspectiveLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7869F9D755203A7458F56959705A197E /* ZLProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFFE47FD77784F11096F165F5FE8B1B /* ZLProgressView.swift */; };
+		7A2539E019595E03C2149F9057525390 /* XDCoverTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D234C282A697B4E06856AE7AE0F67D /* XDCoverTool.swift */; };
 		7A696030FD72002DF4C3E8CF3198376F /* ZLPhotoPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C8462EE374A24A52EBAE1742B788AE /* ZLPhotoPreviewController.swift */; };
 		7BF921831CC4B0FA62FE385B53D2D824 /* ZLAdjustSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C54FDD15D2C931BC5612352E5BF19 /* ZLAdjustSlider.swift */; };
 		7C0317F15A0A2B01629AC7448149D7A7 /* ZLPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EC70908A07464C487221757610D9D /* ZLPhotoModel.swift */; };
@@ -166,7 +168,6 @@
 		821F82998FC5E72DEAD7A96D448749C1 /* UIColor+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12C3275EA29515BA16A3292FA44215 /* UIColor+ZLPhotoBrowser.swift */; };
 		8394735CD730175D8BD97E5A9FD1EE26 /* ZLEnlargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F729D48D3F3312311875160BA057B9B /* ZLEnlargeButton.swift */; };
 		855EDF3E1B70B8C01AAB994610F44050 /* Pods-XDVideoCover_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D7D9FB8DEE6B92618FAA03DD1A32C5 /* Pods-XDVideoCover_Tests-dummy.m */; };
-		8749D9B26F1DAD81658B543C6BE99D8F /* XDVideoCover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 710CE77BA8109F61F1A491040BB9E6A0 /* XDVideoCover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		877EAF7BFA2D0F85C9E9138B7C82869E /* ZLFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D815088510F5F4892B3F3B36F189076 /* ZLFilter.swift */; };
 		87B102BDD78D5C1BBD12052C15FB5127 /* ZLAlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF35D819E46EA4727BFC22FE1898EE /* ZLAlbumListController.swift */; };
 		88E8648FAAB6D7131531A190B4D3258E /* ZLPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE40752BED8B78F97FF2267C51E5407A /* ZLPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -230,7 +231,6 @@
 		C098DC8D29C5035855FA28F859066277 /* LookinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53495CA3118DCE9CB70AD13887E26C /* LookinObject.m */; };
 		C35F0FF51111FC2AA9248C356EC52B06 /* Pods-XDVideoCover_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB87365067E8844374FA6B0F7966D3B /* Pods-XDVideoCover_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C70671D5A3C8C0EEB2FDC8A62DE7820B /* LookinAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFBC51E5F902DC4EB862121EE1B65F7 /* LookinAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C78A4A1E692811ED20213465D7197B02 /* XDVideoCover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E46326AB21929390E730ED586B5EDE5 /* XDVideoCover-dummy.m */; };
 		C7AC1F6702EFE27010AFE3FB770796DD /* LookinStaticAsyncUpdateTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 667B5B258DE81A822D1A3F6C818BC3A2 /* LookinStaticAsyncUpdateTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7E29A896CFB0EF9BA210DFB874044DC /* UIBlurEffect+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B0569A5250584EE089F5F11EEAE5F8 /* UIBlurEffect+LookinServer.m */; };
 		C844BE527CAF3019D88C5B84AE6667CC /* ZLAlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD94D437FDF1EA55E1ABFBD4562D687 /* ZLAlbumListCell.swift */; };
@@ -253,24 +253,25 @@
 		D9DC4E701517B87B52F59D089B250E4B /* LookinMethodTraceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4277E34285B1F4DE3E1EA7F8CBF69 /* LookinMethodTraceRecord.m */; };
 		DA4D5674181326091AE880F48ACB45B9 /* LKS_AttrModificationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E30EF062D7E0802595F8986227590D /* LKS_AttrModificationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC349627CB1E28F9D3AAF73E9DF25CD /* LKS_ConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E91C680D6118689A81EE46ECA223FE60 /* LKS_ConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC19E9E10064CE61E141CA49A496C86C /* XDVideoCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7D757331E61D8D45E332E46F57E25 /* XDVideoCoverCell.swift */; };
 		DEDE5BEDB3FB255F66DDACA266767800 /* ZLPhotoConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EA1E47611BD80CFE0C348EDB09CA2A /* ZLPhotoConfiguration.swift */; };
 		DF0AF08CB1727832E51871B95C9AE154 /* LookinMsgTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7EA949102D7903F33A8211D72EFC1 /* LookinMsgTargetAction.m */; };
 		DF2610E21EEDD849542419E253642BD6 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD041CE089CDCD5A38D4CEDEAC92556 /* Photos.framework */; };
 		DF41AA5BFB1DF556416170027A162216 /* LookinHierarchyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 897C30102E72F4D15021588ECC68F368 /* LookinHierarchyFile.m */; };
+		E0376DFC92A31671FAF11A742FDE3563 /* XDVideoCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B4B975ABAC4A5EE1B650A4FEC0779 /* XDVideoCoverCell.swift */; };
 		E09E8E710A6E76A57AD27A8DA23F2749 /* LKS_PerspectiveHierarchyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3501BBE989563DDE45370C334A3046 /* LKS_PerspectiveHierarchyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2A2B494CF0BB62DFBC3B7B0291595BA /* PHAsset+ZLPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD01B47DDCE8A8D75D1C51ACE2089F3 /* PHAsset+ZLPhotoBrowser.swift */; };
-		E2F09079F265102E558947D52E1098AE /* XDCoverTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C128245BD53A00FA3D47AFE8DBECE /* XDCoverTool.swift */; };
 		E5526C62A23AD63255138B04A4B7B431 /* LookinCodingValueType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9176CC254A83A8CA04495A3E22ECC40B /* LookinCodingValueType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5BFFC85B9042951D54110C9C9ABDE85 /* ZLPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 423B2E98F9EFF494F3EA5CDE3D634C1D /* ZLPhotoBrowser-dummy.m */; };
 		E639CB20AEB683483480E5367BD5C5F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADA5729C392B59FC08C58E8B1C4D93D /* Foundation.framework */; };
 		E66B88EE488BB7C5D8C17365CA11A2D6 /* ZLCustomCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5DE4BF485093B3C17190E1E5910F06 /* ZLCustomCamera.swift */; };
 		E6DBBE4492EEFB954806B34DA3EDDF4D /* LKS_MethodTraceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92187983702FDF1F67661126389DC25A /* LKS_MethodTraceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E70BC9464B4AC22531908C3F63464FEA /* LKS_MethodTraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCC9F3627344172933FDB02396013B /* LKS_MethodTraceManager.m */; };
+		E7CB1BE0A2DA6B3087E251ED1921CA33 /* XDVideoCover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7837A66007A49C72E580B7B447ACB1 /* XDVideoCover.xcassets */; };
 		E8DB18213457CAFABB95943B7977867B /* LookinAutoLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2885B2B924EFBADBE0EC10843B9BC0 /* LookinAutoLayoutConstraint.m */; };
 		E98DC8FB2578E76A812E0C94BA10E1B1 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EFB67E3EE4B673DCA00A6C8B87709 /* ConstraintDirectionalInsets.swift */; };
 		EA76613250FECD51F656BA221FD4B3AA /* ZLFetchImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9850CAD3E6EBD615546F9997A4FA7 /* ZLFetchImageOperation.swift */; };
 		EC110C260BBB4EF78EBF9541E3EE066B /* LookinScreenshotFetchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8240B1AC2BB1BBA6A90A4452141F8E38 /* LookinScreenshotFetchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBDF39A9A049105B644528B1D7FF40D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADA5729C392B59FC08C58E8B1C4D93D /* Foundation.framework */; };
 		EE96FA476D29A85E4E665451611F6483 /* LookinAttributesGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B680DC7DC7666FDD60A85626D09E112 /* LookinAttributesGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEFB6A679F1931DEA5F64FD0CC61C10C /* LookinAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0D44EB7E2C4126663E44001A44E459 /* LookinAppInfo.m */; };
 		EF21586EC3DFF6097A58EEC87376A0C1 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C218B0E1136E4E950E57E993655C85 /* ConstraintLayoutGuideDSL.swift */; };
@@ -279,6 +280,7 @@
 		F3630B7EC8E44833C3D5279273444412 /* LookinHierarchyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 749980E6CCBC7F88D1941D0526F65AD1 /* LookinHierarchyInfo.m */; };
 		F4134FCED3932A335F0DFB5CD1A83C92 /* NSObject+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0C5383768F440E2394E7CF2E00EBE /* NSObject+LookinServer.m */; };
 		F49BBB91A5FA52C9B766CD7670A80DD0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E75759AB5A61F7889EA5498E227F36 /* Accelerate.framework */; };
+		F4D82B183C025ACA52B6EC5129E55565 /* XDVideoCover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF563281D277FBC3D4D21D34EDEA706E /* XDVideoCover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4E7B61F5BAD0075AD56152D06521B0C /* UIImageView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F2BDEA93A752A1BCC8E3E3C9E9F6B /* UIImageView+LookinServer.m */; };
 		F63DE386F821154E78380A8661621E4D /* CALayer+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B9AFAE43400637ED2AA0A755958E1B /* CALayer+Lookin.m */; };
 		F7057AAC4E2F853012780C17372B1813 /* LookinAttributesSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC837E52F1991A5A25D508A389C8A0 /* LookinAttributesSection.m */; };
@@ -294,61 +296,68 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		19F904848B14AC59B5049AFBFA2FCB1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F63E16192702D661B74FB9E53728CDA;
-			remoteInfo = XDVideoCover;
-		};
-		4A74A7974761A031541B19FEC28B08B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92082AB3FC4067757F072644E88673EF;
-			remoteInfo = XDPlayer;
-		};
-		55CEFB73AC9BCE9B499EDF003E0D5425 /* PBXContainerItemProxy */ = {
+		2244E4C44876375D09DE5AFC62BBABDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		5B04F153B866F15A05A8233141545254 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CC6EF8BAD4181C11C758617A5709A8D;
-			remoteInfo = "Pods-XDVideoCover_Example";
-		};
-		6E63056F741A349E22911CB284B924BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92082AB3FC4067757F072644E88673EF;
-			remoteInfo = XDPlayer;
-		};
-		73282E35E295877DF4C089BDE83A4D2E /* PBXContainerItemProxy */ = {
+		445318078A9A8FA2B040927E8FB1CF65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2FAF03761A44702490259F857A848B42;
 			remoteInfo = ZLPhotoBrowser;
 		};
-		A088C0D2DAB52D9F512EACC4C52604A6 /* PBXContainerItemProxy */ = {
+		4C18EB6B6EA0099B7C886EAF8A0FC966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC6EF8BAD4181C11C758617A5709A8D;
+			remoteInfo = "Pods-XDVideoCover_Example";
+		};
+		8347EEED23AAE87B277083A91FCD804B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 638FEAAFC575BB76BC6AC055CDDA3506;
 			remoteInfo = LookinServer;
 		};
-		EE87255D16A1F3196C66AF2B99D8A509 /* PBXContainerItemProxy */ = {
+		8A435BCBA63F92FE58985CE98B1FFF1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
+		};
+		8AFCB90A95A8A92A2FE00C6B4716D1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92082AB3FC4067757F072644E88673EF;
+			remoteInfo = XDPlayer;
+		};
+		CEBCD2584B6D53E0E4875A42878559C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92082AB3FC4067757F072644E88673EF;
+			remoteInfo = XDPlayer;
+		};
+		E4F5257C03DE8A054E709AF5F60CF1AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F63E16192702D661B74FB9E53728CDA;
+			remoteInfo = XDVideoCover;
+		};
+		EE4F423134A771CF1E78E844B2D260FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83423C22C1C9B3119C21018C7E912F13;
+			remoteInfo = "XDVideoCover-XDVideoCover";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -370,10 +379,7 @@
 		095666D10B17321331BC271FFFB36996 /* LKSConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKSConfigManager.h; path = Src/Main/Server/Others/LKSConfigManager.h; sourceTree = "<group>"; };
 		0972946F0174DD3DFFBB21CD4987D23D /* Lookin_PTProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lookin_PTProtocol.h; path = Src/Main/Shared/Peertalk/Lookin_PTProtocol.h; sourceTree = "<group>"; };
 		097FC00DFCDA783754CCAE1915EEB53D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		0A4C128245BD53A00FA3D47AFE8DBECE /* XDCoverTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDCoverTool.swift; path = XDVideoCover/Classes/XDCoverTool.swift; sourceTree = "<group>"; };
 		0B4C0164DBB51AE2F97224BC8D23A45C /* ZLInputTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLInputTextViewController.swift; path = Sources/Edit/ZLInputTextViewController.swift; sourceTree = "<group>"; };
-		0BDE2DEB26FB3A4CA11DE0068E123BAB /* XDVideoCover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDVideoCover.modulemap; sourceTree = "<group>"; };
-		0BE463E0B7E723A9FF336CBC6CDA764A /* XDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDProgressView.swift; path = XDVideoCover/Classes/XDProgressView.swift; sourceTree = "<group>"; };
 		0C68652A2EE44BC6A53FDC88C7B9FF01 /* NSObject+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Lookin.h"; path = "Src/Main/Shared/Category/NSObject+Lookin.h"; sourceTree = "<group>"; };
 		101726AF52702AD5F8E579C7CFFDD3DC /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		10CE71C3BA67BC12D9AAFAF842DBF65B /* UITextView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+LookinServer.h"; path = "Src/Main/Server/Category/UITextView+LookinServer.h"; sourceTree = "<group>"; };
@@ -393,6 +399,7 @@
 		1AD01B47DDCE8A8D75D1C51ACE2089F3 /* PHAsset+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PHAsset+ZLPhotoBrowser.swift"; path = "Sources/Extensions/PHAsset+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
 		1AED65FD596D0C865ED7BAA88A1E6558 /* ZLEditImageConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEditImageConfiguration.swift; path = Sources/General/ZLEditImageConfiguration.swift; sourceTree = "<group>"; };
 		1B66ECD386548E7175FFFB98E023D4A0 /* CALayer+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+Lookin.h"; path = "Src/Main/Shared/Category/CALayer+Lookin.h"; sourceTree = "<group>"; };
+		1CDC9621AA3F1E97AA61737678BE12A7 /* XDVideoCover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDVideoCover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F4FCA6C2498B25F672D1D9672F49D39 /* LKS_EventHandlerMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_EventHandlerMaker.m; path = Src/Main/Server/Others/LKS_EventHandlerMaker.m; sourceTree = "<group>"; };
 		200E5C0B48DC8AAA7E5284A0B9B6120E /* Lookin_PTChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lookin_PTChannel.m; path = Src/Main/Shared/Peertalk/Lookin_PTChannel.m; sourceTree = "<group>"; };
 		20340E5927254880222BD03B86EB1C0B /* ZLBaseStickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLBaseStickerView.swift; path = Sources/Edit/ZLBaseStickerView.swift; sourceTree = "<group>"; };
@@ -421,6 +428,7 @@
 		323476E1BE7D9FE2DFA5E8C952DA87C8 /* LookinDashboardBlueprint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDashboardBlueprint.m; path = Src/Main/Shared/LookinDashboardBlueprint.m; sourceTree = "<group>"; };
 		32867C48607735D6955AB80BD10C4FBA /* LKS_HierarchyDetailsHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_HierarchyDetailsHandler.m; path = Src/Main/Server/Connection/RequestHandler/LKS_HierarchyDetailsHandler.m; sourceTree = "<group>"; };
 		32C8462EE374A24A52EBAE1742B788AE /* ZLPhotoPreviewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewController.swift; path = Sources/General/ZLPhotoPreviewController.swift; sourceTree = "<group>"; };
+		32D234C282A697B4E06856AE7AE0F67D /* XDCoverTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDCoverTool.swift; path = XDVideoCover/Classes/XDCoverTool.swift; sourceTree = "<group>"; };
 		338EC70908A07464C487221757610D9D /* ZLPhotoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoModel.swift; path = Sources/General/ZLPhotoModel.swift; sourceTree = "<group>"; };
 		3429B25880E40D94045D55884F7F3717 /* LKS_PerspectiveLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveLayer.m; path = Src/Main/Server/Perspective/LKS_PerspectiveLayer.m; sourceTree = "<group>"; };
 		34BF3979837B109E02507B99060E3DE5 /* LKS_LocalInspectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_LocalInspectViewController.h; path = Src/Main/Server/Inspect/LKS_LocalInspectViewController.h; sourceTree = "<group>"; };
@@ -430,11 +438,9 @@
 		35E17FF93C299793FB03F854484F4079 /* ZLPhotoPreviewPopInteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoPreviewPopInteractiveTransition.swift; path = Sources/Animation/ZLPhotoPreviewPopInteractiveTransition.swift; sourceTree = "<group>"; };
 		373E7AC7F83A7E8D69F04368969B2616 /* ZLEditToolCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEditToolCells.swift; path = Sources/Edit/ZLEditToolCells.swift; sourceTree = "<group>"; };
 		377E70C80379B95FE1217C8A5C7E18FD /* LKS_PerspectiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveManager.m; path = Src/Main/Server/Perspective/LKS_PerspectiveManager.m; sourceTree = "<group>"; };
-		38DAE0132096809BB636AF513B81F362 /* XDVideoCover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDVideoCover-prefix.pch"; sourceTree = "<group>"; };
 		39CDAF38D2C9672C8E8EF3790EF94282 /* LookinObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinObject.h; path = Src/Main/Shared/LookinObject.h; sourceTree = "<group>"; };
 		3BD9FA106D1140B78C47D15DA0736E80 /* LKS_PerspectiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveManager.h; path = Src/Main/Server/Perspective/LKS_PerspectiveManager.h; sourceTree = "<group>"; };
 		3C0211BC183BDBFC421069A72AB1F1A3 /* ZLProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLProgressHUD.swift; path = Sources/General/ZLProgressHUD.swift; sourceTree = "<group>"; };
-		3C23D9D59C0E7E20E2E0E9C5092804CF /* XDVideoCover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDVideoCover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3C5DE4BF485093B3C17190E1E5910F06 /* ZLCustomCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLCustomCamera.swift; path = Sources/Camera/ZLCustomCamera.swift; sourceTree = "<group>"; };
 		3D12C070A1F919F1403DAAD5CCC557B1 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
 		3D9783DDAC0D8CEC7232A7132FB8D4F0 /* UILabel+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+LookinServer.h"; path = "Src/Main/Server/Category/UILabel+LookinServer.h"; sourceTree = "<group>"; };
@@ -445,17 +451,19 @@
 		410015B95C09F3D4BF1721C122F90C4F /* CALayer+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+LookinServer.m"; path = "Src/Main/Server/Category/CALayer+LookinServer.m"; sourceTree = "<group>"; };
 		4129051E4E66EA0BA41940472BD4409D /* XDPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		423B2E98F9EFF494F3EA5CDE3D634C1D /* ZLPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		42EDA8CEAAB44C4D34B73324860B1CC6 /* ResourceBundle-XDVideoCover-XDVideoCover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XDVideoCover-XDVideoCover-Info.plist"; sourceTree = "<group>"; };
 		44C763204C636A4C574A56879A9F7FC9 /* ZLPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZLPhotoBrowser.bundle; path = Sources/ZLPhotoBrowser.bundle; sourceTree = "<group>"; };
 		450EFB67E3EE4B673DCA00A6C8B87709 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		46EC87CA780DA3D0B8BD0B3982B22503 /* UIGestureRecognizer+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+LookinServer.m"; path = "Src/Main/Server/Category/UIGestureRecognizer+LookinServer.m"; sourceTree = "<group>"; };
 		49A46913100C73253ECB8A13A0C2681B /* ZLLanguageDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLLanguageDefine.swift; path = Sources/General/ZLLanguageDefine.swift; sourceTree = "<group>"; };
 		49A9850CAD3E6EBD615546F9997A4FA7 /* ZLFetchImageOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLFetchImageOperation.swift; path = Sources/General/ZLFetchImageOperation.swift; sourceTree = "<group>"; };
 		4AA1865931D6D19970878EE448C142D8 /* XDPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDPlayer.modulemap; sourceTree = "<group>"; };
+		4C4861ADD30E21782E53169B27FC5FAD /* XDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDProgressView.swift; path = XDVideoCover/Classes/XDProgressView.swift; sourceTree = "<group>"; };
 		4D20BE8B8449E98F729F08D44A7C285B /* LKSConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKSConfigManager.m; path = Src/Main/Server/Others/LKSConfigManager.m; sourceTree = "<group>"; };
 		4D89C4AC9C63AB5D8CED31BA3CDCC5B3 /* LookinServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LookinServer-umbrella.h"; sourceTree = "<group>"; };
 		4E3501BBE989563DDE45370C334A3046 /* LKS_PerspectiveHierarchyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveHierarchyView.h; path = Src/Main/Server/Perspective/LKS_PerspectiveHierarchyView.h; sourceTree = "<group>"; };
 		4EC0A65F03DEAC794F7D7DEFD95EEBF3 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		4FB7D757331E61D8D45E332E46F57E25 /* XDVideoCoverCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDVideoCoverCell.swift; path = XDVideoCover/Classes/XDVideoCoverCell.swift; sourceTree = "<group>"; };
+		4F79FA6A4D342DB11394C471A85FD9EB /* XDVideoCover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDVideoCover-Info.plist"; sourceTree = "<group>"; };
 		4FD520284CEC23E347BBD28B93959920 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		5122865C9CFEFE402DA60CCEF85D58F4 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		516318F1E847762B1D5D96D0D1E5E1E4 /* LookinWeakContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinWeakContainer.m; path = Src/Main/Shared/LookinWeakContainer.m; sourceTree = "<group>"; };
@@ -466,6 +474,7 @@
 		55BF1D529A989B054BE0556DF88A795C /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		5669F5DC6E0FE4380D4F2FAE9D7CE6C3 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		58BDD4F637706D0426ADF5364D2C339B /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
+		597B00DB41267029454B3185B08326AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5999B136D9643931DF4D182424B86D3A /* LookinMsgAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinMsgAttribute.m; path = Src/Main/Shared/Message/LookinMsgAttribute.m; sourceTree = "<group>"; };
 		59E02ABF6F9FCCBF127E55EB2E45DE8E /* LookinDisplayItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDisplayItem.h; path = Src/Main/Shared/LookinDisplayItem.h; sourceTree = "<group>"; };
 		5A93C561854E1308761FDD378B5E638B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -482,6 +491,7 @@
 		622A1126B26F4BC49E65D6201DC9E4B2 /* LKS_AttrGroupsMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_AttrGroupsMaker.m; path = Src/Main/Server/Others/LKS_AttrGroupsMaker.m; sourceTree = "<group>"; };
 		6264364851E8656551C63FDBD028A334 /* ZLImagePreviewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLImagePreviewController.swift; path = Sources/General/ZLImagePreviewController.swift; sourceTree = "<group>"; };
 		62871150F851372D023BF6C5660C18AE /* ZLTextStickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLTextStickerView.swift; path = Sources/Edit/ZLTextStickerView.swift; sourceTree = "<group>"; };
+		660C89D8D0054E304192041FA87940E3 /* XDVideoCover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDVideoCover.modulemap; sourceTree = "<group>"; };
 		667B5B258DE81A822D1A3F6C818BC3A2 /* LookinStaticAsyncUpdateTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinStaticAsyncUpdateTask.h; path = Src/Main/Shared/LookinStaticAsyncUpdateTask.h; sourceTree = "<group>"; };
 		66E2B2A02986EDAE934B36389F2417B6 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		672ED66C74E7812C2EF78F2AA9BF9F14 /* LookinDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDefines.h; path = Src/Main/Shared/LookinDefines.h; sourceTree = "<group>"; };
@@ -495,12 +505,10 @@
 		6FBEA5B6B7D82E8280806A62EFCA0071 /* NSArray+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Lookin.h"; path = "Src/Main/Shared/Category/NSArray+Lookin.h"; sourceTree = "<group>"; };
 		6FE9247DD20D7440D7A42D4061132479 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		70242E1DF17DF6E53C9A6967C6257FCB /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		710CE77BA8109F61F1A491040BB9E6A0 /* XDVideoCover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDVideoCover-umbrella.h"; sourceTree = "<group>"; };
 		72E4AC77D3AAB9AD9081588716B52C7B /* LookinServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LookinServer-prefix.pch"; sourceTree = "<group>"; };
 		741F8D46F83252A4B564F8244A99A806 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		749980E6CCBC7F88D1941D0526F65AD1 /* LookinHierarchyInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinHierarchyInfo.m; path = Src/Main/Shared/LookinHierarchyInfo.m; sourceTree = "<group>"; };
 		74AC837E52F1991A5A25D508A389C8A0 /* LookinAttributesSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttributesSection.m; path = Src/Main/Shared/LookinAttributesSection.m; sourceTree = "<group>"; };
-		77092E90F87D2891F251B5939626B3FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		782503F37F96B3954A220B958A818296 /* LKS_LocalInspectPanelLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_LocalInspectPanelLabelView.m; path = Src/Main/Server/Inspect/LKS_LocalInspectPanelLabelView.m; sourceTree = "<group>"; };
 		7879223FCE08C3749343637C88C70235 /* XDPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDPlayer-umbrella.h"; sourceTree = "<group>"; };
 		7A392D10B62FFCF8B8490CEF1946B3E7 /* UIColor+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LookinServer.m"; path = "Src/Main/Server/Category/UIColor+LookinServer.m"; sourceTree = "<group>"; };
@@ -544,6 +552,7 @@
 		9324C07641BAFA3E262BE2CA527E3F90 /* LookinMsgAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinMsgAttribute.h; path = Src/Main/Shared/Message/LookinMsgAttribute.h; sourceTree = "<group>"; };
 		93ECB9FBE2E31F6FE5ADE2E6057EEFC6 /* Image+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Image+Lookin.m"; path = "Src/Main/Shared/Category/Image+Lookin.m"; sourceTree = "<group>"; };
 		940682224ACC23608525454C798AF3AA /* UIVisualEffectView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIVisualEffectView+LookinServer.m"; path = "Src/Main/Server/Category/UIVisualEffectView+LookinServer.m"; sourceTree = "<group>"; };
+		95BE2199F91792F59375D55E74322C8D /* XDVideoCover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDVideoCover-dummy.m"; sourceTree = "<group>"; };
 		9646A74C331ECD8B3DE1F5067F57B7D1 /* LKS_PerspectiveDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveDataSource.m; path = Src/Main/Server/Perspective/LKS_PerspectiveDataSource.m; sourceTree = "<group>"; };
 		966ED19C0E375B26587E65414FE9B372 /* LookinHierarchyFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinHierarchyFile.h; path = Src/Main/Shared/LookinHierarchyFile.h; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -560,7 +569,6 @@
 		9D6DDE41B663690DF6C64FEE817D732F /* LookinWeakContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinWeakContainer.h; path = Src/Main/Shared/LookinWeakContainer.h; sourceTree = "<group>"; };
 		9D815088510F5F4892B3F3B36F189076 /* ZLFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLFilter.swift; path = Sources/Edit/ZLFilter.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E46326AB21929390E730ED586B5EDE5 /* XDVideoCover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDVideoCover-dummy.m"; sourceTree = "<group>"; };
 		9E798240D3FF29D317C03CECA6D30633 /* LookinTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinTuple.h; path = Src/Main/Shared/LookinTuple.h; sourceTree = "<group>"; };
 		9E8838650BB65CA2CD9BA5AA22925AE5 /* LKS_ConnectionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_ConnectionManager.m; path = Src/Main/Server/Connection/LKS_ConnectionManager.m; sourceTree = "<group>"; };
 		A0637120D3305B44C09B1FA943C412FD /* ZLPhotoConfiguration+Chaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ZLPhotoConfiguration+Chaining.swift"; path = "Sources/General/ZLPhotoConfiguration+Chaining.swift"; sourceTree = "<group>"; };
@@ -575,11 +583,14 @@
 		A4FA1AE0D19B2092F7A8E1C6AF870296 /* ZLPhotoUIConfiguration+Chaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ZLPhotoUIConfiguration+Chaining.swift"; path = "Sources/General/ZLPhotoUIConfiguration+Chaining.swift"; sourceTree = "<group>"; };
 		A519A15108D18E90A53A3C21A70E4CAD /* UIViewController+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIViewController+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
 		A5824ED8E7E67621208A904ACBCB3212 /* LookinIvarTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinIvarTrace.m; path = Src/Base/LookinIvarTrace.m; sourceTree = "<group>"; };
+		A6B076EF3E57A2382C33C7563246A876 /* XDVideoCover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDVideoCover.release.xcconfig; sourceTree = "<group>"; };
+		A80B4B975ABAC4A5EE1B650A4FEC0779 /* XDVideoCoverCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDVideoCoverCell.swift; path = XDVideoCover/Classes/XDVideoCoverCell.swift; sourceTree = "<group>"; };
 		A9676845814D077AFA758A1710172F51 /* ZLEditImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLEditImageViewController.swift; path = Sources/Edit/ZLEditImageViewController.swift; sourceTree = "<group>"; };
 		A9809C72BEFFA9121A53436C0327636E /* UITableView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+LookinServer.m"; path = "Src/Main/Server/Category/UITableView+LookinServer.m"; sourceTree = "<group>"; };
 		AAF0BE1D456C2494AADF4BDFBD5F70A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		ACB058774E59B0B0D8D5DC72C4F770D2 /* LookinAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttribute.h; path = Src/Main/Shared/LookinAttribute.h; sourceTree = "<group>"; };
 		AEEA0F34BBD95895B4A3C3666952E757 /* LookinHierarchyInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinHierarchyInfo.h; path = Src/Main/Shared/LookinHierarchyInfo.h; sourceTree = "<group>"; };
+		AF563281D277FBC3D4D21D34EDEA706E /* XDVideoCover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDVideoCover-umbrella.h"; sourceTree = "<group>"; };
 		B0DEE50AA9E930856ECFE687E8CE6705 /* LKS_PerspectiveViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveViewController.h; path = Src/Main/Server/Perspective/LKS_PerspectiveViewController.h; sourceTree = "<group>"; };
 		B0F70EA12B9FB4A21AB64A475241994E /* LookinDisplayItemDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDisplayItemDetail.m; path = Src/Main/Shared/LookinDisplayItemDetail.m; sourceTree = "<group>"; };
 		B37248626226853635BA6A73D1D8D2A2 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
@@ -588,6 +599,7 @@
 		B471C3BD1C3BA716D863670F61FEE3C1 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		B56931DBA2A6C46F77E13B027C2824B1 /* LookinConnectionResponseAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinConnectionResponseAttachment.h; path = Src/Main/Shared/LookinConnectionResponseAttachment.h; sourceTree = "<group>"; };
 		B5A56F5FE0112FB9D1676D4ECE461000 /* Pods-XDVideoCover_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDVideoCover_Example-Info.plist"; sourceTree = "<group>"; };
+		B68556FB691DF95109CAF53472CC047F /* XDVideoCover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDVideoCover.debug.xcconfig; sourceTree = "<group>"; };
 		B70A1FC70601276820AF06BE6F4E774D /* LookinEventHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinEventHandler.h; path = Src/Main/Shared/LookinEventHandler.h; sourceTree = "<group>"; };
 		B78019FC64B585D88112343B1CF0D6FA /* XDPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDPlayer-dummy.m"; sourceTree = "<group>"; };
 		B94E1AD5AF13FD2BB41BE57FC784E20A /* LookinAttrIdentifiers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttrIdentifiers.m; path = Src/Main/Shared/LookinAttrIdentifiers.m; sourceTree = "<group>"; };
@@ -604,8 +616,10 @@
 		C205DF29019EA5BBC6091234235F1F6D /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		C22A4428FACD589BEE5CCFA79653E4D7 /* LKS_PerspectiveItemLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveItemLayer.h; path = Src/Main/Server/Perspective/LKS_PerspectiveItemLayer.h; sourceTree = "<group>"; };
 		C22BCDDF27E950C8F1487BE2CF62948D /* LookinConnectionAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinConnectionAttachment.m; path = Src/Main/Shared/LookinConnectionAttachment.m; sourceTree = "<group>"; };
+		C48EA32B044BC6524E5963364EFB1B04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C4B764E533F6943CCA7FC677353470F6 /* NSArray+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Lookin.m"; path = "Src/Main/Shared/Category/NSArray+Lookin.m"; sourceTree = "<group>"; };
 		C5091BBD13853F85811C2867C87E7DAF /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		C548B8DB71CD042953C878DE72468638 /* XDVideoCover-XDVideoCover */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "XDVideoCover-XDVideoCover"; path = XDVideoCover.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59C06AFF47E6021421E320F86905E3A /* NSSet+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+Lookin.h"; path = "Src/Main/Shared/Category/NSSet+Lookin.h"; sourceTree = "<group>"; };
 		C60C3291D1286595F522BDCE6F327671 /* UIImage+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ZLPhotoBrowser.swift"; path = "Sources/Extensions/UIImage+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
 		C678F78CD5A993E300E92A5D6A250B9C /* UIView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LookinServer.m"; path = "Src/Main/Server/Category/UIView+LookinServer.m"; sourceTree = "<group>"; };
@@ -616,6 +630,7 @@
 		CBFFE47FD77784F11096F165F5FE8B1B /* ZLProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLProgressView.swift; path = Sources/General/ZLProgressView.swift; sourceTree = "<group>"; };
 		CCB27EA2E46DE34FD703DF6D3E19B71F /* LookinServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.debug.xcconfig; sourceTree = "<group>"; };
 		CCD94D437FDF1EA55E1ABFBD4562D687 /* ZLAlbumListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListCell.swift; path = Sources/General/ZLAlbumListCell.swift; sourceTree = "<group>"; };
+		CDDEB60E7F0CC9AA3E3537711A476E0F /* XDVideoCoverVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDVideoCoverVC.swift; path = XDVideoCover/Classes/XDVideoCoverVC.swift; sourceTree = "<group>"; };
 		CF019B2E75F7262B886E8A3E497A8091 /* ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLPhotoBrowser.swift; path = Sources/General/ZLPhotoBrowser.swift; sourceTree = "<group>"; };
 		D0E06E06C9E9B6A8C72EA3A1FAE4F509 /* LookinStaticAsyncUpdateTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinStaticAsyncUpdateTask.m; path = Src/Main/Shared/LookinStaticAsyncUpdateTask.m; sourceTree = "<group>"; };
 		D28B86B76F6E79454F1701A9C97A80C1 /* ZLPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLPhotoBrowser.debug.xcconfig; sourceTree = "<group>"; };
@@ -623,12 +638,12 @@
 		D64EFBFB3884EDBF9A8761EF0834AEFA /* LookinAttrIdentifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttrIdentifiers.h; path = Src/Main/Shared/LookinAttrIdentifiers.h; sourceTree = "<group>"; };
 		D71E1D4494FEAEA9F5CD22532B9A2CAB /* LKS_AttrModificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_AttrModificationHandler.m; path = Src/Main/Server/Connection/RequestHandler/LKS_AttrModificationHandler.m; sourceTree = "<group>"; };
 		D85C7A2E7B8FC52151971E832DF1D00F /* UIViewController+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LookinServer.m"; path = "Src/Main/Server/Category/UIViewController+LookinServer.m"; sourceTree = "<group>"; };
-		D8DFB12461C41BB53133CA70F3588810 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DB7C54FDD15D2C931BC5612352E5BF19 /* ZLAdjustSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAdjustSlider.swift; path = Sources/Edit/ZLAdjustSlider.swift; sourceTree = "<group>"; };
 		DB957963B03CF4A1C1F19EFB50C37E9C /* LKS_LocalInspectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_LocalInspectManager.h; path = Src/Main/Server/Inspect/LKS_LocalInspectManager.h; sourceTree = "<group>"; };
 		DB9E4CDD61B1B68226D8BE099300C193 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		DBBC2A45813094A1BAC60DB4B8C3BFE7 /* ZLAnimationUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAnimationUtils.swift; path = Sources/General/ZLAnimationUtils.swift; sourceTree = "<group>"; };
 		DD19168C792FBA459ACE9CCDCCBD4C72 /* ZLClipImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLClipImageViewController.swift; path = Sources/Edit/ZLClipImageViewController.swift; sourceTree = "<group>"; };
+		DD7837A66007A49C72E580B7B447ACB1 /* XDVideoCover.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = XDVideoCover.xcassets; path = XDVideoCover/Assets/XDVideoCover.xcassets; sourceTree = "<group>"; };
 		DDA634F8BBD114108B4E2280859E9C3B /* ZLCameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLCameraCell.swift; path = Sources/General/ZLCameraCell.swift; sourceTree = "<group>"; };
 		DDF013A7D50B04F1BEFFBC0484EF8B73 /* ZLPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLPhotoBrowser.release.xcconfig; sourceTree = "<group>"; };
 		DE6DDBD17E7BD5704C377AF62F1C9322 /* ZLPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLPhotoBrowser.modulemap; sourceTree = "<group>"; };
@@ -636,21 +651,18 @@
 		DF9DB1924E276A87ECB6BE3A2C06C93D /* Pods-XDVideoCover_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDVideoCover_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DFD94398B9CF68E5932A465768F2F611 /* ZLVideoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLVideoManager.swift; path = Sources/General/ZLVideoManager.swift; sourceTree = "<group>"; };
 		DFE9A2123DEE71F0F54BF6AF82021005 /* LookinServerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinServerDefines.h; path = Src/Main/Server/Others/LookinServerDefines.h; sourceTree = "<group>"; };
+		E125CF858C411241E34637EEEC86657E /* XDVideoCover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDVideoCover-prefix.pch"; sourceTree = "<group>"; };
 		E19987277617470296755C1218515B1F /* ZLAlbumListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLAlbumListModel.swift; path = Sources/General/ZLAlbumListModel.swift; sourceTree = "<group>"; };
 		E1FD33A28BEEB7DA4ACD3433A5CD8C20 /* ZLThumbnailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLThumbnailViewController.swift; path = Sources/General/ZLThumbnailViewController.swift; sourceTree = "<group>"; };
 		E2791D0F3D31DBCBBEC97BE5410E26B4 /* Pods-XDVideoCover_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDVideoCover_Tests.modulemap"; sourceTree = "<group>"; };
-		E4C105E3CAB078013C0E2A497581ED83 /* XDVideoCover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDVideoCover-Info.plist"; sourceTree = "<group>"; };
 		E4CAA1096DECD74D14086079AD53CABB /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
 		E6D37EBD3B669C8FF0D48B50D0B7BD32 /* ZLCameraConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLCameraConfiguration.swift; path = Sources/General/ZLCameraConfiguration.swift; sourceTree = "<group>"; };
 		E7E7407C77BB743FC375C844186A70DD /* UITableView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+LookinServer.h"; path = "Src/Main/Server/Category/UITableView+LookinServer.h"; sourceTree = "<group>"; };
 		E91C680D6118689A81EE46ECA223FE60 /* LKS_ConnectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_ConnectionManager.h; path = Src/Main/Server/Connection/LKS_ConnectionManager.h; sourceTree = "<group>"; };
 		E9C3D511693F17B64548B661D687788F /* LKS_HierarchyDisplayItemsMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_HierarchyDisplayItemsMaker.h; path = Src/Main/Server/Others/LKS_HierarchyDisplayItemsMaker.h; sourceTree = "<group>"; };
-		EC2798C74D4004C7C37706E5BED930A5 /* XDVideoCover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDVideoCover.debug.xcconfig; sourceTree = "<group>"; };
 		EC68F9B9A23DC759AD46BE327D1A7DAC /* Bool+ZLPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+ZLPhotoBrowser.swift"; path = "Sources/Extensions/Bool+ZLPhotoBrowser.swift"; sourceTree = "<group>"; };
 		ED3BF9BE8C881023FFD783406656230F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
-		ED59983669E9B5C73995B94254EF1476 /* XDVideoCover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDVideoCover.release.xcconfig; sourceTree = "<group>"; };
 		ED6FE3D1C15C4AF11D68C902C73002D2 /* NSString+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Lookin.m"; path = "Src/Main/Shared/Category/NSString+Lookin.m"; sourceTree = "<group>"; };
-		EDBB700BBA2EECA9EE6908E3DD8CEB1D /* XDVideoCoverVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDVideoCoverVC.swift; path = XDVideoCover/Classes/XDVideoCoverVC.swift; sourceTree = "<group>"; };
 		EE7128C2C7F333D1A2A6B917B0329EAD /* Pods-XDVideoCover_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDVideoCover_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF1A3AE9EAF1319339A4E8AEFA5132EA /* LKS_RequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_RequestHandler.m; path = Src/Main/Server/Connection/LKS_RequestHandler.m; sourceTree = "<group>"; };
 		EFAD39B379FFADE7C964670EA2F208E4 /* LookinIvarTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinIvarTrace.h; path = Src/Base/LookinIvarTrace.h; sourceTree = "<group>"; };
@@ -698,14 +710,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C06E761CF8323DE887DBAA7EEA28EE5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6152F3E229F5519F7D50539E5D68576F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96AD9B1B9A338C139CCFE271C93AD718 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -717,6 +721,21 @@
 				DF2610E21EEDD849542419E253642BD6 /* Photos.framework in Frameworks */,
 				605E74B0B11D9266D73A1560E730D357 /* PhotosUI.framework in Frameworks */,
 				FBFBEFA572BD2098DCE075C2847EEA62 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC3D5A4C2DF921A0FC832274D193E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EB972D701C3227F0E54D191E21B4B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBDF39A9A049105B644528B1D7FF40D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,20 +767,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BC29CD5A9C8CA85A90BA9B313AD6920 /* XDVideoCover */ = {
-			isa = PBXGroup;
-			children = (
-				0A4C128245BD53A00FA3D47AFE8DBECE /* XDCoverTool.swift */,
-				0BE463E0B7E723A9FF336CBC6CDA764A /* XDProgressView.swift */,
-				4FB7D757331E61D8D45E332E46F57E25 /* XDVideoCoverCell.swift */,
-				EDBB700BBA2EECA9EE6908E3DD8CEB1D /* XDVideoCoverVC.swift */,
-				18037194115A8B860949BD0608EB76C3 /* Pod */,
-				5F9D2ECF220B91BC26B7830CE9F1236E /* Support Files */,
-			);
-			name = XDVideoCover;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0CDAAECF30BB99264C52667D05B55391 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -853,16 +858,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		18037194115A8B860949BD0608EB76C3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				77092E90F87D2891F251B5939626B3FF /* LICENSE */,
-				D8DFB12461C41BB53133CA70F3588810 /* README.md */,
-				3C23D9D59C0E7E20E2E0E9C5092804CF /* XDVideoCover.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2B0F708CBD4E6D3B095650459124AE6E /* Pods-XDVideoCover_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -918,6 +913,21 @@
 			path = XDPlayer;
 			sourceTree = "<group>";
 		};
+		51CFFDB509F517CF3451C7189EB36D52 /* XDVideoCover */ = {
+			isa = PBXGroup;
+			children = (
+				32D234C282A697B4E06856AE7AE0F67D /* XDCoverTool.swift */,
+				4C4861ADD30E21782E53169B27FC5FAD /* XDProgressView.swift */,
+				DD7837A66007A49C72E580B7B447ACB1 /* XDVideoCover.xcassets */,
+				A80B4B975ABAC4A5EE1B650A4FEC0779 /* XDVideoCoverCell.swift */,
+				CDDEB60E7F0CC9AA3E3537711A476E0F /* XDVideoCoverVC.swift */,
+				D25B3A283F9F63834B591EEE63E0B2A6 /* Pod */,
+				A9785744EDC527D3206304635B53D7F9 /* Support Files */,
+			);
+			name = XDVideoCover;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		5F84DC8F9D0EB9258B32883AAFF30643 /* Pods-XDVideoCover_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -933,21 +943,6 @@
 			);
 			name = "Pods-XDVideoCover_Example";
 			path = "Target Support Files/Pods-XDVideoCover_Example";
-			sourceTree = "<group>";
-		};
-		5F9D2ECF220B91BC26B7830CE9F1236E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BDE2DEB26FB3A4CA11DE0068E123BAB /* XDVideoCover.modulemap */,
-				9E46326AB21929390E730ED586B5EDE5 /* XDVideoCover-dummy.m */,
-				E4C105E3CAB078013C0E2A497581ED83 /* XDVideoCover-Info.plist */,
-				38DAE0132096809BB636AF513B81F362 /* XDVideoCover-prefix.pch */,
-				710CE77BA8109F61F1A491040BB9E6A0 /* XDVideoCover-umbrella.h */,
-				EC2798C74D4004C7C37706E5BED930A5 /* XDVideoCover.debug.xcconfig */,
-				ED59983669E9B5C73995B94254EF1476 /* XDVideoCover.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XDVideoCover";
 			sourceTree = "<group>";
 		};
 		6141688D39AD2E19715B8F64146419A7 /* Support Files */ = {
@@ -976,12 +971,43 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7B399B0B6FAD1629376E0C76EA8BB4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25664483ABF4DC8EC03E7472AA04333B /* LookinServer */,
+				7BDA16A3302513A627B478561A02323C /* Pods-XDVideoCover_Example */,
+				1697499E8218DF85DF892376492DC1AB /* Pods-XDVideoCover_Tests */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+				7E94C5BA3479E59ABAF3C8E8302AB0C0 /* XDPlayer */,
+				1823D32D1B0AD1B5E101D5B7D06E5898 /* XDVideoCover */,
+				C548B8DB71CD042953C878DE72468638 /* XDVideoCover-XDVideoCover */,
+				BB28130B0F4C47DC99D2DB9C80F70152 /* ZLPhotoBrowser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				4AEA11F3CD8B173EAD2FDAD941C03B43 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9785744EDC527D3206304635B53D7F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EDA8CEAAB44C4D34B73324860B1CC6 /* ResourceBundle-XDVideoCover-XDVideoCover-Info.plist */,
+				660C89D8D0054E304192041FA87940E3 /* XDVideoCover.modulemap */,
+				95BE2199F91792F59375D55E74322C8D /* XDVideoCover-dummy.m */,
+				4F79FA6A4D342DB11394C471A85FD9EB /* XDVideoCover-Info.plist */,
+				E125CF858C411241E34637EEEC86657E /* XDVideoCover-prefix.pch */,
+				AF563281D277FBC3D4D21D34EDEA706E /* XDVideoCover-umbrella.h */,
+				B68556FB691DF95109CAF53472CC047F /* XDVideoCover.debug.xcconfig */,
+				A6B076EF3E57A2382C33C7563246A876 /* XDVideoCover.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XDVideoCover";
 			sourceTree = "<group>";
 		};
 		AF2FAA0AC8344BD973A1DB0E7508FBB0 /* SnapKit */ = {
@@ -1070,34 +1096,22 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E8DE1C8F9426A5646FF0CB2684236520 /* Development Pods */,
+				F4F9D9C9B32BD4405CFEC6BFF4943C45 /* Development Pods */,
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				615CB650585993D67BCD030568766390 /* Pods */,
-				D0A31E21FDF5C26E4537ECF18ED09F8B /* Products */,
+				7B399B0B6FAD1629376E0C76EA8BB4DB /* Products */,
 				F0785FF3BDFB84A2D5547536D45A8FB5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D0A31E21FDF5C26E4537ECF18ED09F8B /* Products */ = {
+		D25B3A283F9F63834B591EEE63E0B2A6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				25664483ABF4DC8EC03E7472AA04333B /* LookinServer */,
-				7BDA16A3302513A627B478561A02323C /* Pods-XDVideoCover_Example */,
-				1697499E8218DF85DF892376492DC1AB /* Pods-XDVideoCover_Tests */,
-				979486118B3E90C08386079D57962701 /* SnapKit */,
-				7E94C5BA3479E59ABAF3C8E8302AB0C0 /* XDPlayer */,
-				1823D32D1B0AD1B5E101D5B7D06E5898 /* XDVideoCover */,
-				BB28130B0F4C47DC99D2DB9C80F70152 /* ZLPhotoBrowser */,
+				597B00DB41267029454B3185B08326AB /* LICENSE */,
+				C48EA32B044BC6524E5963364EFB1B04 /* README.md */,
+				1CDC9621AA3F1E97AA61737678BE12A7 /* XDVideoCover.podspec */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E8DE1C8F9426A5646FF0CB2684236520 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0BC29CD5A9C8CA85A90BA9B313AD6920 /* XDVideoCover */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F0785FF3BDFB84A2D5547536D45A8FB5 /* Targets Support Files */ = {
@@ -1107,6 +1121,14 @@
 				2B0F708CBD4E6D3B095650459124AE6E /* Pods-XDVideoCover_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4F9D9C9B32BD4405CFEC6BFF4943C45 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51CFFDB509F517CF3451C7189EB36D52 /* XDVideoCover */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F8ADDBA1D8BAD99DFB75E15FACDA05E5 /* Core */ = {
@@ -1287,6 +1309,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22D25836A4EC6EDE2F223BF987639148 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D82B183C025ACA52B6EC5129E55565 /* XDVideoCover-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FA4790A32ECD84F2CEA55509107BD0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1301,14 +1331,6 @@
 			files = (
 				959FA53CB7B009236B2161042827D910 /* ZLPhotoBrowser.h in Headers */,
 				88E8648FAAB6D7131531A190B4D3258E /* ZLPhotoBrowser-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEB7392201330C73401F77F49EE82392 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8749D9B26F1DAD81658B543C6BE99D8F /* XDVideoCover-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1441,7 +1463,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				695FD32E37418C8D3CE496C8DDE172EB /* PBXTargetDependency */,
+				B47FDE8B6E8FE267833F4AEF4487B08E /* PBXTargetDependency */,
 			);
 			name = "Pods-XDVideoCover_Tests";
 			productName = Pods_XDVideoCover_Tests;
@@ -1460,11 +1482,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				E42146B8C814089489D03B8FB26F380A /* PBXTargetDependency */,
-				5379A09FC071FACE68D2F11B5933872C /* PBXTargetDependency */,
-				4773A97E30F874B344DA8A118D98EACF /* PBXTargetDependency */,
-				9262B41AC67E9D8189F930ABD2503326 /* PBXTargetDependency */,
-				3C220468B8AE4B2B8EC4ADD5EC3AC728 /* PBXTargetDependency */,
+				562A2BE69E143E5D4126CDCEFEEFEBCF /* PBXTargetDependency */,
+				9F1E3F43E47AF29761CCEDAC9B77C13D /* PBXTargetDependency */,
+				B635D20308C674EFF343C6D24DB312C3 /* PBXTargetDependency */,
+				F8B006DCCD150B6D98586CC30077C0B2 /* PBXTargetDependency */,
+				6FAD440FAA2CB67C4331F323B4DF874E /* PBXTargetDependency */,
 			);
 			name = "Pods-XDVideoCover_Example";
 			productName = Pods_XDVideoCover_Example;
@@ -1473,18 +1495,19 @@
 		};
 		2F63E16192702D661B74FB9E53728CDA /* XDVideoCover */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2A2FEB22E2BF4F30F3EEE7C9FCAE9F6 /* Build configuration list for PBXNativeTarget "XDVideoCover" */;
+			buildConfigurationList = 47089E8013A039DE664DDD460F20014C /* Build configuration list for PBXNativeTarget "XDVideoCover" */;
 			buildPhases = (
-				AEB7392201330C73401F77F49EE82392 /* Headers */,
-				FEE076695A2C4485B161B57D9295F066 /* Sources */,
-				4C06E761CF8323DE887DBAA7EEA28EE5 /* Frameworks */,
-				D3BAA36D18188A1E2AD8081F367773EF /* Resources */,
+				22D25836A4EC6EDE2F223BF987639148 /* Headers */,
+				CEA3A38EE41D8D623B7A2D7779D59C2B /* Sources */,
+				B0EB972D701C3227F0E54D191E21B4B2 /* Frameworks */,
+				41B3B1D498EA909F67CEB3BB2BA53997 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B300BA83BDF0BF1E2BA05CFF22F503A0 /* PBXTargetDependency */,
-				71F363C7CF4AA6BFD7981629C29595D3 /* PBXTargetDependency */,
+				774B9D6448507350602C181AA71DD189 /* PBXTargetDependency */,
+				308CBC011D9D8992D632CBE4DED3B7B7 /* PBXTargetDependency */,
+				FF783DDA81B4E0F69A32CC9B8FD19F6F /* PBXTargetDependency */,
 			);
 			name = XDVideoCover;
 			productName = XDVideoCover;
@@ -1527,6 +1550,23 @@
 			productReference = 25664483ABF4DC8EC03E7472AA04333B /* LookinServer */;
 			productType = "com.apple.product-type.framework";
 		};
+		83423C22C1C9B3119C21018C7E912F13 /* XDVideoCover-XDVideoCover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7F1B19841867A79789C80E6247C700 /* Build configuration list for PBXNativeTarget "XDVideoCover-XDVideoCover" */;
+			buildPhases = (
+				8A43B828259A3316F0A404DDB016977F /* Sources */,
+				ACC3D5A4C2DF921A0FC832274D193E88 /* Frameworks */,
+				25DB9EF2E9F496C6CD47917B0767F550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XDVideoCover-XDVideoCover";
+			productName = XDVideoCover;
+			productReference = C548B8DB71CD042953C878DE72468638 /* XDVideoCover-XDVideoCover */;
+			productType = "com.apple.product-type.bundle";
+		};
 		92082AB3FC4067757F072644E88673EF /* XDPlayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A671C763C7D81C3BB6249A72F534BC6 /* Build configuration list for PBXNativeTarget "XDPlayer" */;
@@ -1563,7 +1603,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D0A31E21FDF5C26E4537ECF18ED09F8B /* Products */;
+			productRefGroup = 7B399B0B6FAD1629376E0C76EA8BB4DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1573,12 +1613,29 @@
 				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 				92082AB3FC4067757F072644E88673EF /* XDPlayer */,
 				2F63E16192702D661B74FB9E53728CDA /* XDVideoCover */,
+				83423C22C1C9B3119C21018C7E912F13 /* XDVideoCover-XDVideoCover */,
 				2FAF03761A44702490259F857A848B42 /* ZLPhotoBrowser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		25DB9EF2E9F496C6CD47917B0767F550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CB1BE0A2DA6B3087E251ED1921CA33 /* XDVideoCover.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B3B1D498EA909F67CEB3BB2BA53997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B033C316A0A0303440B8642DA3C9B /* XDVideoCover-XDVideoCover in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49F5CC2B7B7D31BE5E4B19687E569E12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1609,13 +1666,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9910566558D4603BFFC02EAAF90DC053 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3BAA36D18188A1E2AD8081F367773EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1762,6 +1812,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A43B828259A3316F0A404DDB016977F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF9FD82251FE2F265904C5DE62D41FDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1842,6 +1899,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEA3A38EE41D8D623B7A2D7779D59C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2539E019595E03C2149F9057525390 /* XDCoverTool.swift in Sources */,
+				69F84E990D03FD9521035D6EE3676C1A /* XDProgressView.swift in Sources */,
+				661DBD746B193E37A4C07B9EEE1C7671 /* XDVideoCover-dummy.m in Sources */,
+				E0376DFC92A31671FAF11A742FDE3563 /* XDVideoCoverCell.swift in Sources */,
+				54635E66F4C714E6BF0C4133E1514A24 /* XDVideoCoverVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D264881871919CD016B967B67D73D77B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1850,68 +1919,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEE076695A2C4485B161B57D9295F066 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2F09079F265102E558947D52E1098AE /* XDCoverTool.swift in Sources */,
-				0C8B390FB76609EE5BEC71E093BFF332 /* XDProgressView.swift in Sources */,
-				C78A4A1E692811ED20213465D7197B02 /* XDVideoCover-dummy.m in Sources */,
-				DC19E9E10064CE61E141CA49A496C86C /* XDVideoCoverCell.swift in Sources */,
-				3AA212A90C7205CE9B0A51D8FEDBE440 /* XDVideoCoverVC.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C220468B8AE4B2B8EC4ADD5EC3AC728 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLPhotoBrowser;
-			target = 2FAF03761A44702490259F857A848B42 /* ZLPhotoBrowser */;
-			targetProxy = 73282E35E295877DF4C089BDE83A4D2E /* PBXContainerItemProxy */;
-		};
-		4773A97E30F874B344DA8A118D98EACF /* PBXTargetDependency */ = {
+		308CBC011D9D8992D632CBE4DED3B7B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XDPlayer;
 			target = 92082AB3FC4067757F072644E88673EF /* XDPlayer */;
-			targetProxy = 4A74A7974761A031541B19FEC28B08B3 /* PBXContainerItemProxy */;
+			targetProxy = CEBCD2584B6D53E0E4875A42878559C8 /* PBXContainerItemProxy */;
 		};
-		5379A09FC071FACE68D2F11B5933872C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = EE87255D16A1F3196C66AF2B99D8A509 /* PBXContainerItemProxy */;
-		};
-		695FD32E37418C8D3CE496C8DDE172EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-XDVideoCover_Example";
-			target = 2CC6EF8BAD4181C11C758617A5709A8D /* Pods-XDVideoCover_Example */;
-			targetProxy = 5B04F153B866F15A05A8233141545254 /* PBXContainerItemProxy */;
-		};
-		71F363C7CF4AA6BFD7981629C29595D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XDPlayer;
-			target = 92082AB3FC4067757F072644E88673EF /* XDPlayer */;
-			targetProxy = 6E63056F741A349E22911CB284B924BC /* PBXContainerItemProxy */;
-		};
-		9262B41AC67E9D8189F930ABD2503326 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XDVideoCover;
-			target = 2F63E16192702D661B74FB9E53728CDA /* XDVideoCover */;
-			targetProxy = 19F904848B14AC59B5049AFBFA2FCB1E /* PBXContainerItemProxy */;
-		};
-		B300BA83BDF0BF1E2BA05CFF22F503A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 55CEFB73AC9BCE9B499EDF003E0D5425 /* PBXContainerItemProxy */;
-		};
-		E42146B8C814089489D03B8FB26F380A /* PBXTargetDependency */ = {
+		562A2BE69E143E5D4126CDCEFEEFEBCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LookinServer;
 			target = 638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */;
-			targetProxy = A088C0D2DAB52D9F512EACC4C52604A6 /* PBXContainerItemProxy */;
+			targetProxy = 8347EEED23AAE87B277083A91FCD804B /* PBXContainerItemProxy */;
+		};
+		6FAD440FAA2CB67C4331F323B4DF874E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLPhotoBrowser;
+			target = 2FAF03761A44702490259F857A848B42 /* ZLPhotoBrowser */;
+			targetProxy = 445318078A9A8FA2B040927E8FB1CF65 /* PBXContainerItemProxy */;
+		};
+		774B9D6448507350602C181AA71DD189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 2244E4C44876375D09DE5AFC62BBABDD /* PBXContainerItemProxy */;
+		};
+		9F1E3F43E47AF29761CCEDAC9B77C13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 8A435BCBA63F92FE58985CE98B1FFF1F /* PBXContainerItemProxy */;
+		};
+		B47FDE8B6E8FE267833F4AEF4487B08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XDVideoCover_Example";
+			target = 2CC6EF8BAD4181C11C758617A5709A8D /* Pods-XDVideoCover_Example */;
+			targetProxy = 4C18EB6B6EA0099B7C886EAF8A0FC966 /* PBXContainerItemProxy */;
+		};
+		B635D20308C674EFF343C6D24DB312C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XDPlayer;
+			target = 92082AB3FC4067757F072644E88673EF /* XDPlayer */;
+			targetProxy = 8AFCB90A95A8A92A2FE00C6B4716D1C1 /* PBXContainerItemProxy */;
+		};
+		F8B006DCCD150B6D98586CC30077C0B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XDVideoCover;
+			target = 2F63E16192702D661B74FB9E53728CDA /* XDVideoCover */;
+			targetProxy = E4F5257C03DE8A054E709AF5F60CF1AE /* PBXContainerItemProxy */;
+		};
+		FF783DDA81B4E0F69A32CC9B8FD19F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XDVideoCover-XDVideoCover";
+			target = 83423C22C1C9B3119C21018C7E912F13 /* XDVideoCover-XDVideoCover */;
+			targetProxy = EE4F423134A771CF1E78E844B2D260FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1950,6 +2013,38 @@
 			};
 			name = Debug;
 		};
+		168B7C0561F3953E07405ED65215F809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68556FB691DF95109CAF53472CC047F /* XDVideoCover.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XDVideoCover/XDVideoCover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDVideoCover/XDVideoCover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XDVideoCover/XDVideoCover.modulemap";
+				PRODUCT_MODULE_NAME = XDVideoCover;
+				PRODUCT_NAME = XDVideoCover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		23628F35EF2C7202D34637884DB287FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDF013A7D50B04F1BEFFBC0484EF8B73 /* ZLPhotoBrowser.release.xcconfig */;
@@ -1982,38 +2077,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		2EF79B2D0AD34197A20DF67CF5227071 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC2798C74D4004C7C37706E5BED930A5 /* XDVideoCover.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XDVideoCover/XDVideoCover-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XDVideoCover/XDVideoCover-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XDVideoCover/XDVideoCover.modulemap";
-				PRODUCT_MODULE_NAME = XDVideoCover;
-				PRODUCT_NAME = XDVideoCover;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		321A2120D400C5B8DC97CEE0924C9F21 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2373,6 +2436,22 @@
 			};
 			name = Debug;
 		};
+		B9C1F90B9EC148DD3E641946F5C3FCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B076EF3E57A2382C33C7563246A876 /* XDVideoCover.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XDVideoCover";
+				IBSC_MODULE = XDVideoCover;
+				INFOPLIST_FILE = "Target Support Files/XDVideoCover/ResourceBundle-XDVideoCover-XDVideoCover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = XDVideoCover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		CC8ECDC52A1642BA17CA1C00159BE4CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E9B7C47C73C727C2A1690A54610AA04 /* Pods-XDVideoCover_Example.release.xcconfig */;
@@ -2470,9 +2549,9 @@
 			};
 			name = Debug;
 		};
-		F12E1E070E412910F879938A2E0C4737 /* Release */ = {
+		E9EC7426933D7C10F71542A77C44C802 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED59983669E9B5C73995B94254EF1476 /* XDVideoCover.release.xcconfig */;
+			baseConfigurationReference = A6B076EF3E57A2382C33C7563246A876 /* XDVideoCover.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2503,6 +2582,22 @@
 			};
 			name = Release;
 		};
+		FF14F7D78F7579B8B7641BF35AC2AAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68556FB691DF95109CAF53472CC047F /* XDVideoCover.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XDVideoCover";
+				IBSC_MODULE = XDVideoCover;
+				INFOPLIST_FILE = "Target Support Files/XDVideoCover/ResourceBundle-XDVideoCover-XDVideoCover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = XDVideoCover;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2511,6 +2606,24 @@
 			buildConfigurations = (
 				DBF287203618EDFAF79C0C665B77AB74 /* Debug */,
 				985DC82ACCE91C7D61D004DC7DAD40C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7F1B19841867A79789C80E6247C700 /* Build configuration list for PBXNativeTarget "XDVideoCover-XDVideoCover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF14F7D78F7579B8B7641BF35AC2AAF8 /* Debug */,
+				B9C1F90B9EC148DD3E641946F5C3FCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47089E8013A039DE664DDD460F20014C /* Build configuration list for PBXNativeTarget "XDVideoCover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168B7C0561F3953E07405ED65215F809 /* Debug */,
+				E9EC7426933D7C10F71542A77C44C802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2556,15 +2669,6 @@
 			buildConfigurations = (
 				097F36B9934043603F219FB87225A920 /* Debug */,
 				43127BD223D3B21E330A9C790BC1DEF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2A2FEB22E2BF4F30F3EEE7C9FCAE9F6 /* Build configuration list for PBXNativeTarget "XDVideoCover" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EF79B2D0AD34197A20DF67CF5227071 /* Debug */,
-				F12E1E070E412910F879938A2E0C4737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -62,6 +62,20 @@ public class XDCoverTool {
             }
         }
     }
+    
+       
+    public static func getImg(with name: String) -> UIImage? {
+        var image = UIImage(named: name, in: bundle, compatibleWith: nil)
+        if image == nil {
+            image = UIImage(named: name)
+        }
+        return image
+    }
+
+    private static var bundle: Bundle = {
+        let bundle = Bundle.init(path: Bundle.init(for: XDCoverTool.self).path(forResource: "XDVideoCover", ofType: "bundle", inDirectory: nil)!)
+        return bundle!
+    }()
 }
 
 extension Double {

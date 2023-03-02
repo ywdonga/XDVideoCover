@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     @IBAction func btnClick(_ sender: UIButton) {
         let isLocal = sender.tag == 1
         guard isLocal else {
-            toCoverVC(url: "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4")
+            toCoverVC(url: "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4")
             return
         }
 

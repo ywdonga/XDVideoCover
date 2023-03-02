@@ -20,6 +20,11 @@
     "ios": "11.0"
   },
   "source_files": "XDVideoCover/Classes/**/*",
+  "resource_bundles": {
+    "XDVideoCover": [
+      "XDVideoCover/Assets/*.xcassets"
+    ]
+  },
   "dependencies": {
     "SnapKit": [
       "~> 5.6"
