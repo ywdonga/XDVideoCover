@@ -36,6 +36,7 @@ class XDVideoCoverCell: UICollectionViewCell {
         if let img = self.model?.image {
             imgView.image = img
         } else {
+            imgView.image = nil
             XDCoverTool.requestImage(from: asset, time: model.requestTime) { [weak self] img, time in
                 if self?.model?.requestTime == time {
                     self?.model?.image = img
